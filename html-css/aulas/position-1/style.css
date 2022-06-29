@@ -1,0 +1,32 @@
+:root {
+  --cor0: #ccc;
+  --cor1: #e7e7e7;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1200px;
+}
+
+div {
+  border: 2px solid var(--cor0);
+  padding: 20px 20px 40px 20px;
+  margin-top: 40px;
+  height: 200px;
+}
+
+span {
+  position: relative;
+  background-color: var(--cor1);
+  border: 2px solid var(--cor0);
+  padding: 10px;
+  top: -20px;
+}
+
+.fixo {
+  position: fixed;
+
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+}
