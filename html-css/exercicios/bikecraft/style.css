@@ -1,0 +1,75 @@
+:root {
+  --cinza-fundo: #f7f7f7;
+  --cinza-texto: #c6c6c6;
+  --vermelho: #ee2211;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cinza-fundo);
+  max-height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bolder;
+}
+
+.menu > a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin: auto 300px;
+}
+
+.texto1 {
+  display: grid;
+  place-self: center end;
+  place-items: center end;
+}
+
+.vermais{
+  background-color: var(--vermelho);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.vantagens {
+  font-size: 64px;
+  color: var(--cinza-texto);
+}
+
+footer {
+  background-color: white;
+  position: absolute;
+  bottom: -100px;
+  height: 50px;
+  width: 100%;
+  justify-self: center;
+  text-align: center;
+}
