@@ -1,14 +1,14 @@
-:root{
+:root {
   --cor1: #f7f7f7;
   --cor2: #c6c6c6;
   --cor3: #ee2211;
 }
 
-*{
+* {
   margin: 0px;
 }
 
-body{
+body {
   display: grid;
   justify-content: center;
   margin-top: 60px;
@@ -16,20 +16,20 @@ body{
   background-color: var(--cor1);
 }
 
-.flex{
+.flex {
   display: grid;
   justify-items: center;
   gap: 60px;
 }
 
-.flex-items{
+.flex-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.flex a{
+.flex a {
   background-color: #fff;
   text-decoration: none;
   color: black;
@@ -38,7 +38,7 @@ body{
   text-transform: uppercase;
 }
 
-.container{
+.container {
   margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -46,7 +46,7 @@ body{
   max-width: 1000px;
 }
 
-.grid{
+.grid {
   display: grid;
   position: relative;
   gap: 20px;
@@ -56,30 +56,38 @@ body{
   justify-items: end;
   text-align: right;
   background-color: #fff;
-  
 }
 
-p{
+.detalhe {
+  background-color: var(--cor3);
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+p {
   font-size: 20px;
   line-height: 1.3em;
 }
 
-.vermais{
+.vermais {
   justify-self: right;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   background-color: var(--cor3);
-  padding: 15px;
+  padding: 15px 30px;
   border-radius: 4px;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
 }
 
-.subtitulo{
+.subtitulo {
   font-size: 64px;
   text-align: right;
   color: var(--cor2);
@@ -88,12 +96,12 @@ img{
   align-self: center;
 }
 
-.vantagens{
+.vantagens {
   background-color: #fff;
   padding: 40px;
 }
 
-.vantagens-item{
+.vantagens-item {
   display: grid;
   align-self: center;
   grid-template-columns: auto 1fr;
@@ -101,11 +109,11 @@ img{
   gap: 10px 20px;
 }
 
-.vantagens-item p{
+.vantagens-item p {
   grid-column: 2;
 }
 
-footer{
+footer {
   background-color: #fff;
   width: 100%;
   padding: 20px;
